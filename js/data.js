@@ -3,18 +3,11 @@
 //  1. Add a new folder under photos/ with your project name
 //  2. Add your JPG photos to that folder
 //  3. Copy one of the entries below and fill in:
-<<<<<<< HEAD
-//     - id:        folder name (must match the folder you created)
-//     - title:     name shown on the card and project page
-//     - year:      year shown under title on hover (leave "" for none)
-//     - photoCount: used for placeholders before real photos are added
-//     - photos:    list of your photo filenames inside that folder
-=======
-//     - id:     folder name (must match the folder you created)
-//     - title:  name shown on the card and project page
-//     - year:   year of the project
-//     - photos: list of your photo filenames inside that folder
->>>>>>> 92926e55cb842f334029aea260ada04bfd67edeb
+//     - id:         folder name (must match the folder you created)
+//     - title:      name shown on the card and project page
+//     - year:       year shown under title on hover (leave "" for none)
+//     - photoCount: total slots including future photos
+//     - photos:     list of your photo filenames inside that folder
 // ============================================================
 
 const projects = [
@@ -24,7 +17,6 @@ const projects = [
     year: "",
     thumbnail: "photos/thumbnails/madrid-canon-r50.jpg",
     photoCount: 19,
-<<<<<<< HEAD
     photos: [
       "IMG_0072.JPG",
       "IMG_0076.JPG",
@@ -46,16 +38,12 @@ const projects = [
       "IMG_0190.JPG",
       "IMG_0202.JPG"
     ]
-=======
-    photos: []
->>>>>>> 92926e55cb842f334029aea260ada04bfd67edeb
   },
   {
     id: "madrid-film",
     title: "Madrid Film",
     year: "",
     thumbnail: "photos/thumbnails/madrid-film.jpg",
-<<<<<<< HEAD
     photoCount: 20,
     photos: [
       "000013030001.jpg",
@@ -72,17 +60,12 @@ const projects = [
       "000013040002.jpg",
       "000013040036.jpg"
     ]
-=======
-    photoCount: 17,
-    photos: []
->>>>>>> 92926e55cb842f334029aea260ada04bfd67edeb
   },
   {
     id: "cars-on-film",
     title: "Cars on Film",
     year: "",
     thumbnail: "photos/thumbnails/cars-on-film.jpg",
-<<<<<<< HEAD
     photoCount: 25,
     photos: [
       "000013030024.jpg",
@@ -94,17 +77,12 @@ const projects = [
       "000013030036.jpg",
       "000013030037.jpg"
     ]
-=======
-    photoCount: 21,
-    photos: []
->>>>>>> 92926e55cb842f334029aea260ada04bfd67edeb
   },
   {
     id: "nyc-chinatown-car-show-2026",
     title: "NYC Chinatown Car Show 2026",
     year: "",
     thumbnail: "photos/thumbnails/nyc-chinatown-car-show-2026.jpg",
-<<<<<<< HEAD
     photoCount: 15,
     photos: [
       "IMG_0002.JPG",
@@ -115,10 +93,6 @@ const projects = [
       "IMG_0025.JPG",
       "IMG_0028.JPG"
     ]
-=======
-    photoCount: 9,
-    photos: []
->>>>>>> 92926e55cb842f334029aea260ada04bfd67edeb
   },
   {
     id: "boston",
@@ -126,10 +100,7 @@ const projects = [
     year: "",
     thumbnail: "photos/thumbnails/boston.jpg",
     photoCount: 22,
-<<<<<<< HEAD
-    photos: [
-      // Add Boston filenames here once your photos are ready
-    ]
+    photos: []
   },
   {
     id: "gardens",
@@ -140,24 +111,18 @@ const projects = [
     photos: [
       "IMG_0425.JPG",
       "IMG_0428.JPG",
-      // NOTE: .tif files below won't display in browsers — convert to JPG first
-      // "IMG_0436.tif",
       "IMG_0437_1.jpg",
       "IMG_0440_1.jpg",
-      // "IMG_0441.tif",
       "IMG_0442-1.jpg",
       "IMG_0444-1.jpg",
-      // "IMG_0447.tif",
       "IMG_0453.JPG",
       "IMG_0456.JPG",
-      // "IMG_0457.tif",
       "IMG_0461-1.jpg",
       "IMG_0462-1.jpg",
       "IMG_0466-1.jpg",
       "IMG_0468.JPG",
       "IMG_0471.JPG",
-      "IMG_0486.JPG",
-      // "IMG_0488.tif"
+      "IMG_0486.JPG"
     ]
   },
   {
@@ -261,40 +226,5 @@ const projects = [
       "IMG_0093-2.JPG",
       "IMG_0098.JPG"
     ]
-=======
-    photos: []
-  },
-  {
-    id: "gardens-2025",
-    title: "Gardens",
-    year: "2025",
-    thumbnail: "photos/thumbnails/gardens-2025.jpg",
-    photoCount: 19,
-    photos: []
-  },
-  {
-    id: "chicago-2025",
-    title: "Chicago",
-    year: "2025",
-    thumbnail: "photos/thumbnails/chicago-2025.jpg",
-    photoCount: 17,
-    photos: []
-  },
-  {
-    id: "south-korea-2025",
-    title: "South Korea",
-    year: "2025",
-    thumbnail: "photos/thumbnails/south-korea-2025.jpg",
-    photoCount: 50,
-    photos: []
-  },
-  {
-    id: "dallas-2024",
-    title: "Dallas",
-    year: "2024",
-    thumbnail: "photos/thumbnails/dallas-2024.jpg",
-    photoCount: 10,
-    photos: []
->>>>>>> 92926e55cb842f334029aea260ada04bfd67edeb
   }
 ];
