@@ -44,7 +44,6 @@
   <!-- ========== SCRIPTS ========== -->
   <script src="js/data.js"></script>
   <script>
-    // Get project id from URL e.g. project.html?id=madrid
     const params = new URLSearchParams(window.location.search);
     const projectId = params.get('id');
     const project = projects.find(p => p.id === projectId);
@@ -55,9 +54,8 @@
     if (!project) {
       titleEl.textContent = 'Project not found';
     } else {
-      // Set page title
       document.title = `${project.title} — Emily Faghir`;
-      titleEl.textContent = `${project.title} — ${project.year}`;
+      titleEl.textContent = project.year ? `${project.title} — ${project.year}` : project.title;
 
       // Show real photos first
       project.photos.forEach((filename, index) => {
@@ -119,12 +117,10 @@
     document.getElementById('lightbox-prev').addEventListener('click', showPrev);
     document.getElementById('lightbox-next').addEventListener('click', showNext);
 
-    // Close on background click
     lightbox.addEventListener('click', (e) => {
       if (e.target === lightbox) closeLightbox();
     });
 
-    // Keyboard navigation
     document.addEventListener('keydown', (e) => {
       if (!lightbox.classList.contains('open')) return;
       if (e.key === 'ArrowLeft') showPrev();
